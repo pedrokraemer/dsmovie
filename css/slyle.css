@@ -1,24 +1,63 @@
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
+     :root {
+        --bg-gray: #ddd;
+        --color-primary: #4d41c0;
+        --text-white: #fff;
+    }
     
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
-
-*{
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
-
-body{
-    background-color: black;
-}
-header{
-    background-color: #4D41C0;
-    color: white;
-}
-a, a:hover{
-    text-decoration: none;
-    color: unset;
-}
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    * {
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    body {
+        background-color: var(--bg-gray);
+    }
+    
+    header {
+        background-color: var(--color-primary);
+        color: var(--text-white);
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+    }
+    
+    a,
+    a:hover {
+        text-decoration: none;
+        color: unset;
+    }
+    
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    nav h1 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    nav a {
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    nav img {
+        margin-right: 10px;
+    }
+    
+    .contact-link {
+        display: flex;
+        align-items: center;
+    }
