@@ -2,14 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap');
 
 *{
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
-h1{
-    color: darkcyan;
+
+body{
+    background-color: black;
 }
-h2{
-    color: brown;
+header{
+    background-color: #4D41C0;
+    color: white;
 }
-h3{
-    color: blue;
+a, a:hover{
+    text-decoration: none;
+    color: unset;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
